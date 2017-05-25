@@ -4,7 +4,7 @@
  * Arduino Tutorial #1: Continuous Motor
  * 25-05-2017
  */
-int motorPin = 2;
+int motorPin = 3;
 
 void setup() 
 {
