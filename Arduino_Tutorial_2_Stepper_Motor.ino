@@ -7,7 +7,7 @@
 int   stepPin   = 13;   // Connect pin 13 to step of Pololu
 int   dirPin    = 12;   // Connect pin 12 to direction of Pololu
 
-int   angle     = 180;  // Rotation in degre
+int   angle     = 180;  // Rotation in degree
 float motorStep = 1.8;  // Angle of one step
 bool  side      = HIGH; // Rotation side
 
@@ -27,8 +27,8 @@ void loop()
 {
   Serial.print("Turning ");
   Serial.print(angle);
-  if (side == HIGH) Serial.println(" degre CW");
-  else Serial.println(" degre CCW");
+  if (side == HIGH) Serial.println(" degree CW");
+  else Serial.println(" degree CCW");
 
   // Turn x step in direction 1
   for (int i = 0; i < nbSteps; i++)
