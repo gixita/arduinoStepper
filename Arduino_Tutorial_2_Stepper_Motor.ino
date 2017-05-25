@@ -1,5 +1,8 @@
 /**
- * MakiBot - Arduino Stepper Motor Tutorial 1
+ * MakiBot Lab 
+ * 
+ * Arduino Tutorial #2: Stepper Motor
+ * 25-05-2017
  */
 int   stepPin   = 13;   // Connect pin 13 to step of Pololu
 int   dirPin    = 12;   // Connect pin 12 to direction of Pololu
